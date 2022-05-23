@@ -21,12 +21,14 @@ graph TB
     D & E & F --> Y[Receive bank card by post]
     X --> Y
     G --> H[Send scan of TAX ID to HR]
-    B --> Z[Get Schufa, credit history document] 
+    B --> |Sometimes it required on the visit, but more frequent <br/>when you sign a contract|Z[Get Schufa, credit history document] 
     Z --> J[Get permanent accomodation, sigh a contract]
     J --> I[Inform PrimeMovers to deliver your stuff]
     J --> K[Register your permanent address at town hall]
     K --> L[Inform HR, health insurance company, and bank about your new address]
     L ----> |Birgit recommends not earlier than<br/> 2-3 month after arrival.| M[Apply for permanent work permit in Ausländerbehörde]
-    M --> N[Send scan to HR]
+    M --> T[Get permanent work and residence permit]
+    T --> N[Send scan to HR]
+    Y ----> M
 ```
 
