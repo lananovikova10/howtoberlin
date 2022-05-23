@@ -3,11 +3,14 @@
 ```mermaid
 graph TB
     subgraph Before moving
-    A[Get National Visa D] --> U[Travel to Germany]
-    A --> R[Post a scan of your visa to YouTrack issue]
+        A[Get National Visa D] --> U[Travel to Germany]
+        TEMP[Find a temporary accomodation] --> U
+        TEMP --> BOOK[Ask the  Relocation manager to book it for you]
+        A --> R[Post a scan of your visa to YouTrack issue]
     end
     U --> P[Buy German sim card]
     U --> B[Get Temporary accomodation]
+    BOOK --> B
     B --> O[Ask landlord for Wohnungsgeber-Bestätigung]
     Q[Get insurance certificate] -------> L
     O --> |You need to register within 14 days after arrival.| W[Register temporary residential address at town hall aka Anmeldung]
@@ -21,7 +24,7 @@ graph TB
     D & E & F --> Y[Receive bank card by post]
     X --> Y
     G --> H[Send scan of TAX ID to HR]
-    B --> |Sometimes it required on the visit, but more frequent <br/>when you sign a contract|Z[Get Schufa, credit history document] 
+    B --> |Sometimes it required on the visit, but more frequent <br/>when you sign a contract|Z[Get Schufa, credit history document]
     Z --> J[Get permanent accomodation, sigh a contract]
     J --> I[Inform PrimeMovers to deliver your stuff]
     J --> K[Register your permanent address at town hall]
