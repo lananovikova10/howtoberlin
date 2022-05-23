@@ -10,7 +10,7 @@ graph TB
     U --> B[Get Temporary accomodation]
     B --> O[Ask landlord for Wohnungsgeber-Bestätigung]
     Q[Get insurance certificate] -------> L
-    B[Get Temporary accomodation] --> |You need to register within 14 days after arrival.| W[Register temporary residential address at town hall aka Anmeldung]
+    O --> |You need to register within 14 days after arrival.| W[Register temporary residential address at town hall aka Anmeldung]
     B --> G[Go to Finanzamt, apply for tax ID]
     W --> X[Put your surname on the mailbox, frontdoor doorbell, and an appartment doorbell]
     W --> C[Open bank account]
