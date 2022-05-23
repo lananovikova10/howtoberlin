@@ -12,7 +12,7 @@ graph TB
     Q[Get insurance certificate] -------> L
     O --> |You need to register within 14 days after arrival.| W[Register temporary residential address at town hall aka Anmeldung]
     B --> G[Go to Finanzamt, apply for tax ID]
-    W --> X[Put your surname on the mailbox, frontdoor doorbell, and an appartment doorbell]
+    W --> X[Put your surname on a mailbox, a frontdoor doorbell, and an appartment doorbell]
     W --> C[Open bank account]
     C --> D[Deutsche]
     C --> E[Sparkasse]
