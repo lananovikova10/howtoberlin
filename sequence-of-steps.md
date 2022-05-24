@@ -7,7 +7,10 @@ graph TB
         VISA[Get National Visa D] --> BUY[Ask to book tickets]
         BUY --> TR[Travel to Germany]
         TEMP[Find a temporary accomodation] --> TR
-        TEMP --> BOOK[Ask the  Relocation manager to book it for you]
+        TEMP --> BOOK[Ask the  Relocation manager to book accomodation for you]
+        ST[Prepare your stuff to be moved by PrimeMovers]
+
+        ST --> CAL[Inform PrimeMovers in 2-3 weeks about your things and when you are leaving]
     end
     BOOK --> TR
     TR --> SIM[Buy a German sim card]
@@ -16,7 +19,7 @@ graph TB
     INS[Get insurance certificate] -------> INF
     WOH --> |You need to register within 14 days after arrival.| REG[Register temporary residential address at town hall aka Anmeldung]
     ACC --> TAX[Go to Finanzamt, apply for tax ID]
-    REG --> MAIL[Put your surname on a mailbox, a frontdoor doorbell, and an appartment doorbell]
+    REG --> MAIL[Put your surname on a mailbox, a frontdoor</br>doorbell, and an appartment doorbell]
     REG --> BANK[Open bank account]
     BANK --> D[Deutsche]
     BANK --> E[Sparkasse]
@@ -27,9 +30,9 @@ graph TB
     TAX --> HR1[Send scan of TAX ID to HR]
     ACC -.-> |Sometimes it required on the visit, but more frequent <br/>when you sign a contract|SCH[Get Schufa, credit history document]
     SCH --> PERM[Get permanent accomodation, sigh a contract]
-    PERM --> I[Inform PrimeMovers to deliver your stuff]
+    PERM & CAL --> I[Inform PrimeMovers to deliver your stuff]
     PERM --> REG2[Register your permanent address at town hall]
-    REG2 --> INF[Inform HR, health insurance company, and bank about your new address]
+    REG2 --> INF[Inform HR, health insurance company,<br/> and bank about your new address]
     INF ----> |Birgit recommends not earlier than<br/> 2-3 month after arrival.| AMEL[Apply for permanent work permit in Ausländerbehörde]
     AMEL --> PMZH[Get permanent work and residence permit]
     PMZH --> HR2[Send scan to HR]
