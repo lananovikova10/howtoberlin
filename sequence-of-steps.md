@@ -29,7 +29,8 @@ graph TB
     MAIL --> CARD
     TAX --> HR1[Send scan of TAX ID to HR]
     ACC -.-> |Sometimes it required on the visit, but more frequent <br/>when you sign a contract|SCH[Get Schufa, credit history document]
-    SCH --> PERM[Get permanent accomodation, sigh a contract]
+    SCH -.-> PERM[Get permanent accomodation, sigh a contract]
+    ACC --> PERM
     PERM & CAL --> I[Inform PrimeMovers to deliver your stuff]
     PERM --> REG2[Register your permanent address at town hall]
     REG2 --> INF[Inform HR, health insurance company,<br/> and bank about your new address]
