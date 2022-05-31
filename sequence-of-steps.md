@@ -40,3 +40,7 @@ graph TB
     MAIL ----> AMEL
 ```
 
+Some more information on each step:
+- [Anmeldung](anmeldung.md)
+- [Tax ID](finanzamt.md)
+- [Schufa](shufa.md)
