@@ -31,7 +31,7 @@ graph TB
     TAX & STKL --> HR1[Send scan of Tax ID and Tax Class to HR]
     REG & IBAN --> SCH[Get Schufa, credit history document. Makes sense to get it for free via paid ImmobilienScout24.de subscription <br/>Almost always it's required to be allowed for a viewing, <br/>and it's part of document list when applying for a contract]
     ACC -.-> MSFE[Ask landlord for `Mietschuldenfreiheitserklärung des Vorvermieters`]
-    SCH -.-> PERM[Sign a contract for permanent accomodatior, the best case: unlimited]
+    SCH -.-> PERM[Sign a contract for permanent accomodation, the best case: unlimited]
     IBAN --> PERM
     MSFE -.-> |Usually, new landlord wants to know, whether you don't have any debts to previous landlord|PERM
     PERM & CAL --> I[Inform PrimeMovers to deliver your stuff]
