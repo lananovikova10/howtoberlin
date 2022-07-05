@@ -1,10 +1,15 @@
 # Anmeldung
 
-In Germany, you must register your address at the Bürgeramt. 
-This will become your official address in Germany. This is called the Anmeldung. Same as Propiska in Russian.
+In Germany, you must register your address at the Bürgeramt. This process is called `Anmeldung`. 
+This makes your address as official address in Germany. It's kinda similar to `Propiska` in Russian, however does not give you any rights for the property, and does not apply any restrictions on the property.
 
-During the Anmeldung appointment, you get a registration certificate (Anmeldebestätigung). This document confirms your official address in Germany. You often need it to open a bank account or get a cellphone contract. 
-After your first Anmeldung, you will also get a [tax ID](finanzamt.md) (Steueridentifikationsnummer).
+If you're married, bring your translated marriage certificate. It's important!!!!
 
-- Once you have your temporary address start to book the termin (aka apppointment slot) to get an Anmeldung. 
-- You can use Telegram bot: https://t.me/find_termin_bot 
+During the Anmeldung appointment, you get a registration certificate (Meldebescheinigung/Meldebestätigung/Anmeldebestätigung). This document confirms your official address in Germany. You often need it to open a bank account, get a cellphone contract, apply for state benefits, etc. 
+
+After your first Anmeldung, you will also get a 11-digit [tax ID](finanzamt.md) (Steueridentifikationsnummer a.k.a Personnlische Identifikationnummer, a.k.a IdNr). !!Don't mix it up with Steuernummer!! :) 
+
+Once you have your temporary address,
+- ask landlord for Wohnungsgeberbestätigung(formular is named `Einzugsbestätigung des Wohnungsgebers/Vermieters (Muster)` at https://service.berlin.de/dienstleistung/120686/)
+- book the Anmeldung Termin (aka appointment slot) at webpage linked above.  
+- In case of unavailable slots, try search it at 8:00h, or use Telegram bot: https://t.me/find_termin_bot
