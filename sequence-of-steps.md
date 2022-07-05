@@ -32,7 +32,7 @@ graph TB
     REG & IBAN --> SCH[Get Schufa, credit history document. Makes sense to get it for free via paid ImmobilienScout24.de subscription <br/>Almost always it's required to be allowed for a viewing, <br/>and it's part of document list when applying for a contract]
     ACC -.-> MSFE[Ask landlord for `Mietschuldenfreiheitserklärung des Vorvermieters`]
     SCH -.-> PERM[Sign a contract for permanent accomodatior, the best case: unlimited]
-    WOH & IBAN --> PERM
+    IBAN --> PERM
     MSFE -.-> |Usually, new landlord wants to know, whether you don't have any debts to previous landlord|PERM
     PERM & CAL --> I[Inform PrimeMovers to deliver your stuff]
     PERM --> REG2[Register your permanent address at town hall]
@@ -42,6 +42,7 @@ graph TB
     AGB[Ask Birgit to issue Arbeitgeberbescheinigung] -->  PERM & AMEL
     AMEL --> PMZH[Get work and residence permit for several years. It can be a bluecard, or work visa]
     PMZH --> HR2[Send scan to HR]
+
 ```
 
 Some more information on each step:
