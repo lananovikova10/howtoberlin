@@ -39,11 +39,25 @@ graph TB
     AGB[Ask Birgit to issue<br/>Arbeitgeberbescheinigung] --> AMEL
     AMEL --> VNZH[Get work and residence long-permit.<br/>It can be a bluecard, or work visa]
     VNZH --> HR2[Send scan to HR]
-    VNZH --> KINDERGELD[Apply for<br/>state benefits<br/>for children,<br/>if applicable]
-    VNZH --> ELTERNGELD[Apply for<br/>state benefits<br/>for parents,<br/>if applicable]
+    VNZH --> KINDERGELD[Apply for<br/>state benefits<br/>for children,<br/>if applicable,<br/>200eur/child]
+    VNZH --> ELTERNGELD[Apply for<br/>state benefits<br/>for parents,<br/>if applicable,<br/>for child <1 y.o.]
 ```
 
 Some more information on each step:
 - [Anmeldung](anmeldung.md)
 - [Tax ID](finanzamt.md)
 - [Schufa](schufa.md)
+
+After long-term residence, there will be the following ways to get permanent residence:
+```mermaid
+graph TB
+        BC[In case you got Bluecard] -.-> B1[Pass German Language B1 exam]
+        BC -.-> A1[Pass German language A1 exam]
+        A1 --> |After 33 months from getting Bluecard|PMZHAPP[Apply for permanent residence]
+        B1 --> |After 21 months from getting Bluecard|PMZHAPP
+
+        WV[In case you got work visa] --> B1_wv[Pass German Language B1 exam]
+        B1_wv --> |5 years of paying to pension fund|PMZHAPP
+        PMZHAPP --> PMZH[Obtain permanent residence]
+        PMZH -.-> MORT[Now you can freely apply for a mortgage<br/>Note: in _very_ rare cases, you can get mortgage<br/>without permanent residence]
+```
