@@ -8,4 +8,4 @@ Using undisclosed machine learning, SCHUFA calculates your durability scores, an
 - If you have [ImmobilienScout24](https://www.immobilienscout24.de/) [Premium account](https://www.immobilienscout24.de/meinkonto/premium-mitgliedschaft/) you can receive SCHUFA check for free.
 The price of Premium account is comparable to price of `SCHUFA Askunft`. So it makes big sense to request `SCHUFA Askunft` there, and it will come by post.
 - Apart from it, everyone can ask for `SCHUFA Askunft` for a small donation of 29Eur to `SCHUFA` organization. 
-It can come by papermail, or it's better to ask it in person in selected Postbank branches.
+It can come by papermail, or it's better to ask it in person in selected Postbank branches: https://www.meineschufa.de/de/filialfinder
