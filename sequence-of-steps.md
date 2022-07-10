@@ -11,8 +11,9 @@ graph TB
 
         ST --> CAL[Inform PrimeMovers in 2-3 weeks<br/>about your things and when you are leaving]
     end
-    TR --> SIM[Buy a German sim card. At first, prepaid is recommended, not contract. <br/>Best coverage in Berlin is at Telekom.de and its virtual operators like Lebara <br/>https://second.wiki/wiki/liste_der_mobilfunkprovider_in_deutschland.<br/>Coverage of O2 Telefonica is worst, and Vodafone is in between]
+    TR --> SIM[Buy a German sim card. At first, prepaid is recommended, not contract. <br/>Best coverage in Berlin is at Telekom.de and its virtual operators<br/>Coverage of O2 Telefonica is worst, and Vodafone is in between<br/>See more info on the topic <a href='https://tinyurl.com/2p94c3sb'>in this article</a>]
     TR --> ACC[Arrive into temporary accomodation]
+    TR --> SCH1[Get Schufa Auskunft<br/>without IBAN<br/>to JB office address<br/>via ImmobilienScout24.de,<br/>see description below]
     ACC --> WOH[Ask a landlord for Wohnungsgeber-Bestätigung]
     WOH --> |You need to register within 14 days after arrival.| REG[Register temporary residential address at Bürgeramt, aka Anmeldung.<br/>In case you're married -> whole family comes together<br/>with marriage and birth certificates for kids]
     REG --> INS[Get public<br/>health insurance<br/>certificate,<br/>send it to HR]
@@ -25,9 +26,9 @@ graph TB
     BANK --> IBAN[Get IBAN `International Bank Account Number`]
     IBAN & MAIL --> CARD[Receive bank card<br/>and its pincode with <br/>separate papermails]
     TAX & STKL --> HR1[Send scan of Tax ID and Tax Class to HR]
-    REG & IBAN --> SCH[Get Schufa Auskunft,<br/>credit history document.<br/>Makes sense to get it<br/>for free via paid<br/>ImmobilienScout24.de<br/>2-month subscription.<br/>Almost always it's required<br/>for an apartment viewing, <br/>and it's part of document list<br/>when applying for a contract]
+    REG & IBAN --> SCH2[Get Schufa Auskunft<br/>with IBAN and real address<br/>see description below]
     ACC -.-> MSFE[Ask landlord for<br/>`Mietschuldenfreiheitserklärung<br/>des Vorvermieters`]
-    SCH -.-> PERM[Sign a contract forpermanent accomodation,<br/>the best case: unlimited]
+    SCH1 & SCH2 -.-> PERM[Sign a contract for permanent accomodation,<br/>the best case: unlimited]
     IBAN --> PERM
     MSFE -.-> |Usually, new landlord wants to know,<br/>whether you don't have any debts to previous landlord|PERM
     PERM & CAL --> I[Inform PrimeMovers<br/>to deliver your stuff]
@@ -46,7 +47,10 @@ graph TB
 Some more information on each step:
 - [Anmeldung](anmeldung.md)
 - [Tax ID](finanzamt.md)
-- [Schufa](schufa.md)
+- [Schufa Auskunft](schufa.md): credit history document.
+Almost always it's required for an apartment viewing, and it's part of document list when applying for a contract.
+At ImmobilienScout24.de, Schufa Auskunft can be ordered either for 29 Eur, or for free via paid ImmobilienScout24.de subscription.
+Anyway ImmobilienScout24.de paid subscription for a couple of months is really required for non-zero chances to get good permanent apartment.
 
 After long-term residence, there will be the following ways to get permanent residence:
 ```mermaid
