@@ -16,7 +16,6 @@ graph TB
     TR --> SCH1[Get Schufa Auskunft<br/>without IBAN<br/>to JB office address<br/>via ImmobilienScout24.de,<br/>see description below]
     ACC --> WOH[Ask a landlord for Wohnungsgeber-Bestätigung]
     WOH --> |You need to register within 14 days after arrival.| REG[Register temporary residential address at Bürgeramt, aka Anmeldung.<br/>In case you're married -> whole family comes together<br/>with marriage and birth certificates for kids]
-    REG --> INS[Get public<br/>health insurance<br/>certificate,<br/>send it to HR]
     REG --> MAIL[Put your surname on a mailbox, a frontdoor</br>and an apartment doorbell]
     MAIL --> TAX[Finanzamt generates<br/>Steuer-ID/Tax-ID<br/>for you in 3 days<br/>and sends it via<br/>papermail in 2 weeks.<br/>You can get it faster<br/>by coming to your<br/>Finanzamt in person]
     MAIL --> PAYSLIPS[Receive login<br/>and password<br/>for payslips by<br/>separate<br/>papermails]
