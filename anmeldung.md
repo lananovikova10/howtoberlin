@@ -7,9 +7,10 @@ If you're married, bring your translated marriage certificate. It's important!!!
 
 As a result of the Anmeldung appointment, you get a registration certificate (Meldebescheinigung/Meldebestätigung/Anmeldebestätigung). This document confirms your official address in Germany. You often need it to open a bank account, get a cellphone contract, apply for state benefits, etc. 
 
-After your first Anmeldung, you will receive an 11-digit [tax ID](finanzamt.md) (Steueridentifikationsnummer a.k.a Personnlische Identifikationnummer, a.k.a IdNr).
-!!Don't mix it up with Steuernummer!! :)
-It will come by papermail in 2 weeks, or you can obtain it in person from your local Finanzamt(also you really should declare them your tax classes, in case you're married). 
+After your first Anmeldung, you will receive an 11-digit [Steuer-ID (tax ID in English)](finanzamt.md) (Steueridentifikationsnummer a.k.a Personnlische Identifikationnummer, a.k.a IdNr).
+!!Don't mix it up with [Steuernummer](https://praxistipps.focus.de/steuernummer-vs-steuer-id-das-sind-die-unterschiede_126609) :)
+It will come by papermail in 2 weeks, or quicker you can obtain it in person from your local Finanzamt after two days from Anmeldung.
+Also in the same visit you really should explicitly tell Finanzamt your chosen tax classes, in case you're married. 
 
 So, once you moved in your temporary apartment,
 - ask landlord for Wohnungsgeberbestätigung(formular is named `Einzugsbestätigung des Wohnungsgebers/Vermieters (Muster)` at https://service.berlin.de/dienstleistung/120686/)
