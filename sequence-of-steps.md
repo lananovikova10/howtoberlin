@@ -33,9 +33,10 @@ graph TB
     PERM & CAL --> I[Inform PrimeMovers<br/>to deliver your stuff]
     PERM --> WOH2[Ask a landlord for Wohnungsgeber-Bestätigung]
     WOH2 --> REG2[Register your permanent<br/>address at town hall]
+    REG2 --> INF[Inform companies about your address change,<br/>see their approx. list after the diagram]
+    REG2 ----> AMEL[Apply for long-term work<br/>permit in Ausländerbehörde.<br/>Birgit recommends not earlier than<br/> 2-3 month after arrival.]
     PERM --> MAIL2[Put your surname on <br/>a mailbox,<br/>a frontdoor</br> and doorbell]
-    REG2 --> INF[Inform companies about your address change]
-    MAIL2 ----> |Birgit recommends not earlier than<br/> 2-3 month after arrival.| AMEL[Apply for long-term work<br/>permit in Ausländerbehörde]
+    MAIL2 --> INF
     AGB[Ask Birgit to issue<br/>Arbeitgeberbescheinigung] --> AMEL
     AMEL --> VNZH[Get work and residence long-permit.<br/>It can be a bluecard, or work visa]
     VNZH --> HR2[Send scan to HR]
@@ -50,7 +51,8 @@ Some more information on each step:
 Almost always it's required for an apartment viewing, and it's part of document list when applying for a contract.
 At ImmobilienScout24.de, Schufa Auskunft can be ordered either for 29 Eur, or for free via paid ImmobilienScout24.de subscription.
 Anyway ImmobilienScout24.de paid subscription for a couple of months is really required for non-zero chances to get good permanent apartment.
-- `Inform companies about your address change`: JetBrains HR, health insurance company, banks, mobile operators, internet operator, insurance companies, ImmoScout24.
+- `Inform companies about your address change`: JetBrains HR, insurance companies(health + others), banks, energy providers,
+mobile operators, internet operator, insurance companies, car sharings, ImmoScout24.
 Highly recommended: set up papermail redirects at [Deutsche Post](https://shop.deutschepost.de/shop/nachsenden-lagern/nachsendeservice.jsp?cid=DP_101002152)
 and [PIN Mail](https://www.pin-ag.de/privatkunden/formulare/nachsendeauftrag).
 
