@@ -51,8 +51,8 @@ Some more information on each step:
 Almost always it's required for an apartment viewing, and it's part of document list when applying for a contract.
 At ImmobilienScout24.de, Schufa Auskunft can be ordered either for 29 Eur, or for free via paid ImmobilienScout24.de subscription.
 Anyway ImmobilienScout24.de paid subscription for a couple of months is really required for non-zero chances to get good permanent apartment.
-- `Inform companies about your address change`: JetBrains HR, insurance companies(health + others), banks, energy providers, BVG,
-mobile operators, internet operator, insurance companies, car sharings, ImmoScout24, delivery and billing addresses at e-commerce like amazon.de,
+- `Inform companies about your address change`: JetBrains HR, insurance companies (health + others), banks, energy providers, BVG,
+mobile operators, internet operator, car sharings, ImmoScout24, delivery and billing addresses at e-commerce like amazon.de,
 Highly recommended: set up papermail redirects at [Deutsche Post](https://shop.deutschepost.de/shop/nachsenden-lagern/nachsendeservice.jsp?cid=DP_101002152)
 and [PIN Mail](https://www.pin-ag.de/privatkunden/formulare/nachsendeauftrag).
 
