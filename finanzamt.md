@@ -8,4 +8,5 @@
 https://www.bzst.de/DE/Service/Behoerdenwegweiser/Finanzamtsuche/GemFa/finanzamtsuche_node.html
 - Открыты для приёма они обычно вторник-четверг до 16, уточняйте часы работы заранее
 - Также идти в Finanzamt надо женатым тут же после Anmeldung, чтобы сказать им, какие налоговые классы вы себе выбрали, иначе дефолтные вас могут не устроить.
+Lifehack: можно попробовать поменять класс также онлайн на сайте налоговой https://www.elster.de/eportal/formulare-leistungen/alleformulare/elevsteuerklassenwechsel
 - По-немецки Tax ID называется Steuer-ID. НЕ ПУТАТЬ со SteuerNummer - это номер для иных целей!! См. разницу в https://praxistipps.focus.de/steuernummer-vs-steuer-id-das-sind-die-unterschiede_126609   
